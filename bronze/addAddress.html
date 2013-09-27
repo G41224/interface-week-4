@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is a web app for drink saving" />
+		<meta name="keywords" content="Drink save, alcohol, drink storage, softdrink" />
+		<meta name="robots" content= "index, follow" />
+		<meta name="viewport" content="user-scalable=yes, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		
+		<link rel="stylesheet" href="css/style.css" />
+		<title>  </title>
+		
+		
+	</head>
+
+	<body>
+		<h1>Add a new Address!</h1>
+		<nav>
+		<a href="#" id="displyAdd">Saved Addresses</a>
+		<a href="#" id="clearStorage">Clear Address</a>
+		<a href="addAddress.html" id="addNew" style="display: none"> Add New Item</a>
+		</nav>
+		<form action="#" method="post" id="addressForm">
+			<fieldset id="newAddress">
+				<legend>New Address</legend>
+				<ul id="error"> </ul>
+				<ul>
+					<li><p>*items are requierd</p></li>
+					<li><label for="fName" >*First Name:</label><input type="text" id="fName" /> </li>
+					<li><label for="lName" >*Last Name:</label><input type="text" id="lName" /> </li>
+					<li><label for="sAddress" >*Street Address:</label><input type="text" id="sAddress" /> </li>
+					<li><label for="city" >*city:</label><input type="text" id="city" /> </li>
+
+					<li>
+						<label for="state">*State:</label>
+						<select id="state">
+							<option value="--State--" >State</option>
+							<option value="al">AL</option>
+						    <option value="ak">AK</option>
+						    <option value="az">AZ</option>
+						    <option value="ar">AR</option>
+						    <option value="ca">CA</option>
+						    <option value="co">CO</option>
+						    <option value="ct">CT</option>
+						    <option value="de">DE</option>
+						    <option value="fl">FL</option>
+						    <option value="ga">GA</option>
+						    <option value="hi">HI</option>
+						    <option value="id">ID</option>
+						    <option value="il">IL</option>
+						    <option value="in">IN</option>
+						    <option value="ia">IA</option>
+						    <option value="ks">KS</option>
+						    <option value="ky">KY</option>
+						    <option value="la">JA</option>
+						    <option value="me">ME</option>
+						    <option value="md">MD</option>
+						    <option value="ma">MA</option>
+						    <option value="mi">MI</option>
+						    <option value="mn">MN</option>
+						    <option value="ms">MS</option>
+						    <option value="mo">MO</option>
+						    <option value="mt">MT</option>
+						    <option value="ne">NE</option>
+						    <option value="nv">NV</option>
+						    <option value="nh">NH</option>
+						    <option value="nj">NJ</option>
+						    <option value="nm">NM</option>
+						    <option value="ny">NY</option>
+						    <option value="nc">NC</option>
+						    <option value="nd">ND</option>
+						    <option value="oh">OH</option>
+						    <option value="ok">OK</option>
+						    <option value="or">OR</option>
+						    <option value="pa">PA</option>
+						    <option value="ri">RI</option>
+						    <option value="sc">SC</option>
+						    <option value="sd">SD</option>
+						    <option value="tn">TN</option>
+						    <option value="tx">TX</option>
+						    <option value="ut">UT</option>
+						    <option value="vt">VT</option>
+						    <option value="va">VA</option>
+						    <option value="wa">WA</option>
+						    <option value="wv">WV</option>
+						    <option value="wi">WI</option>
+						    <option value="wy">WY</option>							
+						</select>
+					</li>
+					
+					
+					<li><label for="zip" >*Zip Code:</label><input type="text" id="zip" /> </li>
+						
+						
+					
+					
+					<li>
+						<fieldset id="addressType">
+							<legend>Address Type</legend>
+							<ul id="addTypeList">
+								<li><input type="radio" value="house" id="house" name="addType"/><label for="house">House</label></li>
+								<li><input type="radio" value="aprt" id="aprt" name="addType"/><label for="aprt">Appartment</label></li>
+							
+							</ul>
+						</fieldset>
+						<fieldset id="dilivDay">
+							<legend>Dilivery Day</legend>
+							<ul id="dilivDayList">
+								<li><input type="checkbox" value="monday" id="monday" name="weekday"/><label for="monday">Monday</label></li>
+								<li><input type="checkbox" value="tuesday" id="tuesday" name="weekday"/><label for="tuesday">Tuesday</label></li>
+								<li><input type="checkbox" value="wednesday" id="wednesday" name="weekday"/><label for="wednesday">Wednesday</label></li>
+								<li><input type="checkbox" value="thursday" id="thursday" name="weekday"/><label for="thursday">Thursday</label></li>
+								<li><input type="checkbox" value="friday" id="friday" name="weekday"/><label for="friday">Friday</label></li>
+								<li><input type="checkbox" value="saturday" id="saturday" name="weekday"/><label for="saturday">Saturday</label></li>
+								<li><input type="checkbox" value="sunday" id="sunday" name="weekday"/><label for="sunday">Sunday</label></li>
+								
+							
+							</ul>
+						</fieldset>
+					</li>
+					<li><label for="note">add a note For this address</label><textarea id="note"></textarea></li>
+					<li><input type="hidden" value="this is hidden" /></li>
+				</ul>
+			</fieldset>
+			<input type="submit" value="Submit!" id="submit"/>
+		</form>
+		<script type="text/javascript" src="js/json.js"></script>
+		<script type="text/javascript" src="js/crudjs.js"></script>
+	</body>
+</html>

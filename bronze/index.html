@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is a web app" />
+		<meta name="keywords" content="Zac Croasmun" />
+		<meta name="robots" content= "index, follow" />
+		<meta name="viewport" content="user-scalable=yes, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/themes/bronze1.min.css" />
+		<script src="js/modernizr.custom.60803.js"></script>
+		<title>gift</title>
+	</head>
+	
+	
+	<body>
+		<div data-role="page" id="home" data-theme="a">
+			<div data-role="header" data-position="fixed">
+				<img id="brand"  src="imgs/branding.png" /><h1>Gift Basket bronze home</h1>
+				
+				
+			</div>
+			
+			
+			<div data-role="content">
+				<ul data-role="listview" data-filter="true">
+					
+					<li data-role="list-divider" data-theme="a">
+						<h4>Featured products</h4>
+					</li>
+					
+					
+						<div data-role="button" data-theme="a">
+						<a href="#shop">shop our products</a>
+						</div>
+					
+					
+					<li data-role="list-divider" data-theme="a">
+						<h4>Browse our company </h4>
+					
+					</li>
+					
+						<div data-role="button" data-theme="a">
+						<a href="#fav">Saved Addresses</a> 
+						</div>
+					
+					
+						<div data-role="button" data-theme="a">
+						<a href="#about">about our company</a>
+						</div>
+					
+					
+						<div data-role="button" data-theme="a">
+							<a href="#newsFeed">company news feed</a>
+						</div>
+					
+				</ul>
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">saved addresses</a></li>
+						<li><a href="#newsFeed">company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div data-role="page" id="shop" data-theme="a" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Shop gift basket</h1>
+				<a href="#shopList" data-icon="bars" class="ui-btn-right" >list view</a>
+				
+				
+			</div>
+			
+			
+			
+			<div data-role="content">
+				<ul data-role="listview" data-filter="true"></ul>
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Clincher.jpg" />
+									<h2> custom basket 1</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Encore.jpg" />
+									<h2>custom basket 2</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Fruit-Basket.jpg" />
+									<h2>custom basket 3</h2>
+									<p>this will be a link</p>
+								</li>
+							</ul>
+						</div>
+						<div class="ui-block-b">
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Coffee-Lovers.jpg"/>
+									<h2>custom basket 4 </h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Wine-Chest.jpg"/>
+									<h2>custom basket 5</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/special.png" />
+									<h2>custom basket 6</h2>
+									<p>this will be a link</p>
+								</li>
+							</ul>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					<div data-role="button" data-theme="a">
+						<a href="addAddress.html" data-ajax='false'>shipping form</a>
+					</div>
+						
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">saved addresses</a></li>
+						<li><a href="#newsFeed">company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		<div data-role="page" id="shopList" data-theme="a" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Shop gift basket</h1>
+				<a href="#shop" data-icon="bars" class="ui-btn-right">grid view</a>
+				
+				
+			</div>
+			
+			
+			
+			<div data-role="content">
+				<ul data-role="listview" data-filter="true"></ul>
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Clincher.jpg" />
+									<h2> custom basket 1</h2>
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+								<li>
+									<img src="imgs/Encore.jpg" />
+									<h2>custom basket 2</h2>
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+								<li>
+									<img src="imgs/Fruit-Basket.jpg" />
+									<h2>custom basket 3</h2>
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+							</ul>
+						
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Coffee-Lovers.jpg"/>
+									<h2>custom basket 4</h2> 
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+								<li>
+									<img src="imgs/Wine-Chest.jpg"/>
+									<h2>custom basket 5</h2>
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+								<li>
+									<img src="imgs/special.png" />
+									<h2>custom basket 6</h2>
+									<p>this will be a link to its own page featuring product</p>
+								</li>
+							</ul>
+							
+							
+							
+						
+					</div>
+					
+					<div data-role="button" data-theme="a">
+						<a href="addAddress.html" data-ajax='false'>shipping form</a>
+					</div>
+						
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">saved addresses</a></li>
+						<li><a href="#newsFeed">company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+			
+			<div data-role="page" id="fav" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-position="fixed">
+				<h1>Saved Addresses</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				
+					<p>This is where your addresses are going to be saved</p>
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">saved addresses</a></li>
+							<li><a href="#newsFeed">company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			<div data-role="page" id="about" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-position="fixed">
+				<h1>about page</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				
+					<h2>About Our Company</h2>
+						<p>Big-z is a company committed to our people. 
+							We are here to find new and exciting ways to capture our customer’s wants and needs when it comes to
+							applications. The designs are meant to mold usability and aesthetics into working cohesion. 
+	
+						<h3>My name is Zachery Croasmun and I am here to create your enjoyment!</h3>
+ 						</p>
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">saved addresses</a></li>
+							<li><a href="#newsFeed">company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			<div data-role="page" id="newsFeed" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-position="fixed">
+				<h1>company news feed</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				<ul data-role="listview" data-filter="true"></ul>
+				<ul data-role="listview" data-inset="true">
+					
+					<li>
+						<h2>Fixed form validation</h2>
+						<p>updated: 25 sep 2013</p>
+					</li>
+						
+					<li>
+						<h2>added requierd fields to the form.</h2>
+						<p>updated: 19 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>created a list inlay for the product page.</h2>
+						<p>updated: 15 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>added a listview option to the product page.</h2>
+						<p>updated: 12 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>added some great new products.</h2>
+						<p>updated: 10 sep 2013</p>
+					</li>
+					
+					
+				</ul>
+					
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">saved addresses</a></li>
+							<li><a href="#newsFeed">company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+		
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src=""></script>
+
+	</body>
+</html>

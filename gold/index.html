@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is a web app" />
+		<meta name="keywords" content="Zac Croasmun" />
+		<meta name="robots" content= "index, follow" />
+		<meta name="viewport" content="user-scalable=yes, width=device-width" />
+		<meta name="viewport" content="target-densitydpi=device-dpi" />
+		
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<link rel="stylesheet" href="css/themes/custom6.min.css" />
+		<script src="js/libs/modernizr.custom.60803.js"></script>
+		<title>gift</title>
+	</head>
+	
+	
+	<body>
+		<div data-role="page" id="home" data-theme="a" >
+			<div data-role="header" data-theme="a" data-position="fixed">
+				<img id="brand"  src="imgs/branding.png"/><h1>Gift Basket Gold home</h1>
+				
+				
+			</div>
+			
+			
+			<div data-role="content">
+				<ul data-role="listview">
+					<div>
+						<label for="search"></label>
+						<input type="search" name="password" id="search" value="" placeholder="search">
+					</div>
+					
+					<div class="ui-grid-b" data-inset="true">
+						<div class="ui-block-a">
+							<img src="imgs/Encore.jpg" hight="100" width="75" />
+						</div.
+						<div class="ui-block-b">
+							<img src="imgs/Coffee-Lovers.jpg" hight="100" width="75" />
+						</div>
+						<div class="ui-block-c">
+							<img src="imgs/Fruit-Basket.jpg" hight="100" width="75"/>
+							<p>gift baskets of all kinds<h2>Gift-basket.com</h2></p>
+						</div>
+						
+						
+					</div>
+					<li data-role="list-divider" data-theme="a" data-inset="true">
+						<h4>Featured products</h4>
+					</li>
+					
+					
+					
+						<div data-role="button" data-theme="a" data-inset="true">
+						<a href="#shop">shop our products</a>
+						</div>
+					
+					
+					<li data-role="list-divider" data-theme="a">
+						<h4>Browse Saved info</h4>
+					</li>
+					
+					
+						<div data-role="button" data-theme="a">
+						<a href="#fav">Saved Addresses</a> 
+						</div>
+					
+					<li data-role="list-divider" data-theme="a">
+						<h4>Browse Our Company</h4>
+					</li>
+					
+						<div data-role="button" data-theme="a">
+						<a href="#about">about our company</a>
+						</div>
+					
+					
+						<div data-role="button" data-theme="a">
+							<a href="#newsFeed">company news feed</a>
+						</div>
+					
+				</ul>
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">Addresses</a></li>
+						<li><a href="#newsFeed">Company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+		</div>
+		<div data-role="page" id="shop" data-theme="a" data-add-back-btn="true">
+			<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>Shop gift basket</h1>
+				<a href="#shopList" data-icon="bars" class="ui-btn-right">list view</a>
+				
+				
+			</div>
+			
+			
+			
+			<div data-role="content">
+					<div class="ui-grid-a">
+						<div class="ui-block-a">
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Clincher.jpg" />
+									<h2> custom basket 1</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Encore.jpg" />
+									<h2>custom basket 2</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Fruit-Basket.jpg" />
+									<h2>custom basket 3</h2>
+									<p>this will be a link</p>
+								</li>
+							</ul>
+						</div>
+						<div class="ui-block-b">
+							<ul data-role="listview" data-inset="true">
+								<li>
+									<img src="imgs/Coffee-Lovers.jpg"/>
+									<h2>custom basket 4 </h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/Wine-Chest.jpg"/>
+									<h2>custom basket 5</h2>
+									<p>this will be a link</p>
+								</li>
+								<li>
+									<img src="imgs/special.png" />
+									<h2>custom basket 6</h2>
+									<p>this will be a link</p>
+								</li>
+							</ul>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					<div data-role="button" data-theme="a">
+						<a href="#shipping">shipping form</a>
+					</div>
+						
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">Addresses</a></li>
+						<li><a href="#newsFeed">Company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		<div data-role="page" id="shopList" data-theme="a" data-add-back-btn="true">
+			<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>Shop gift basket</h1>
+				<a href="#shop" data-icon="bars" class="ui-btn-right">grid view</a>
+				
+				
+			</div>
+			
+			
+			
+			<div data-role="content">
+							
+								<div data-role="collapsible-set">
+								<div data-role="collapsible">
+								
+									<img src="imgs/Clincher.jpg" hight="200" width="200"/>
+									<h2> custom basket 1</h2>
+									<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								
+								</div>
+								<div data-role="collapsible">
+								
+									<img src="imgs/Encore.jpg" hight="200" width="200"/>
+									<h2>custom basket 2</h2>
+									<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								
+								</div>
+								<div data-role="collapsible">
+								
+									<img src="imgs/Fruit-Basket.jpg" hight="200" width="200"/>
+									<h2>custom basket 3</h2>
+									<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								
+								</div>
+								</div>
+							
+						
+							
+							<div data-role="collapsible-set">
+								<div data-role="collapsible">
+										<img src="imgs/Coffee-Lovers.jpg" hight="200" width="200"/>
+										<h2>custom basket 4</h2> 
+										<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								</div>
+								<div data-role="collapsible">
+										<img src="imgs/Wine-Chest.jpg" hight="200" width="200"/>
+										<h2>custom basket 5</h2>
+										<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								</div>
+								<div data-role="collapsible">
+										<img src="imgs/special.png" hight="200" width="200"/>
+										<h2>custom basket 6</h2>
+										<p>the image will be clickable taking the user to the product page and then to the shipping page.</p>
+								</div>
+							
+							
+							
+						
+					</div>
+					
+					<div data-role="button" data-theme="a">
+						<a href="#shipping">shipping form</a>
+					</div>
+						
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home">home</a></li>
+						<li><a href="#fav">Addresses</a></li>
+						<li><a href="#newsFeed">Company News</a></li>
+						<li><a href="#about">about</a></li>
+						
+					</ul>
+					
+				</div>
+				
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		<div data-role="page" id="shipping"  data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>shipping page</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				<form action="" method="post" id="shippingAddress">
+					<div data-role="fieldcontain">
+						<label for="fName">First Name: </label>
+						<input type="text" name="fName" id="fName" placeholder="ex. John"  class="required"/>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="lName">Last Name:</label>
+						<input type="text" name="lName" id="lName" placeholder=" ex.Doe"  class="required"/>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="address">Address:</label>
+						<input type="text" name="address" id="address" placeholder="ex. 111 goober st."  class="required"/>
+					</div>
+					<div data-role="fieldcontain">
+						<label for="city">city:</label>
+						<input type="text" name="city" id="city" placeholder="ex. Munich" class="required"/>
+					</div>
+					<label for="select-choice-a" class="select">state:</label>
+						<select name="selectState" id="selectState" data-native-menu="false" class="required">
+						    <option>state</option>
+						    <option value="al">AL</option>
+						    <option value="ak">AK</option>
+						    <option value="az">AZ</option>
+						    <option value="ar">AR</option>
+						    <option value="ca">CA</option>
+						    <option value="co">CO</option>
+						    <option value="ct">CT</option>
+						    <option value="de">DE</option>
+						    <option value="fl">FL</option>
+						    <option value="ga">GA</option>
+						    <option value="hi">HI</option>
+						    <option value="id">ID</option>
+						    <option value="il">IL</option>
+						    <option value="in">IN</option>
+						    <option value="ia">IA</option>
+						    <option value="ks">KS</option>
+						    <option value="ky">KY</option>
+						    <option value="la">JA</option>
+						    <option value="me">ME</option>
+						    <option value="md">MD</option>
+						    <option value="ma">MA</option>
+						    <option value="mi">MI</option>
+						    <option value="mn">MN</option>
+						    <option value="ms">MS</option>
+						    <option value="mo">MO</option>
+						    <option value="mt">MT</option>
+						    <option value="ne">NE</option>
+						    <option value="nv">NV</option>
+						    <option value="nh">NH</option>
+						    <option value="nj">NJ</option>
+						    <option value="nm">NM</option>
+						    <option value="ny">NY</option>
+						    <option value="nc">NC</option>
+						    <option value="nd">ND</option>
+						    <option value="oh">OH</option>
+						    <option value="ok">OK</option>
+						    <option value="or">OR</option>
+						    <option value="pa">PA</option>
+						    <option value="ri">RI</option>
+						    <option value="sc">SC</option>
+						    <option value="sd">SD</option>
+						    <option value="tn">TN</option>
+						    <option value="tx">TX</option>
+						    <option value="ut">UT</option>
+						    <option value="vt">VT</option>
+						    <option value="va">VA</option>
+						    <option value="wa">WA</option>
+						    <option value="wv">WV</option>
+						    <option value="wi">WI</option>
+						    <option value="wy">WY</option>
+						</select>
+
+					<div data-role="fieldcontain">
+						<label for="zipCode">Zip Code:</label>
+						<input type="number" name="zipCode" id="zipCode" placeholder="ex.99111"  class="required number"/>
+					</div>
+					
+					<div data-role="fieldcontain">
+						<label for="date">Date:</label>
+						<input type="datetime-local"  data-role="datebox" name="date" id="date" class="required date"/>
+					</div>
+
+					<div data-role="fieldcontain">
+						<fieldset data-role="controlgroup">
+							<legend>Address Type:</legend>
+							<input type="radio" value="appartment" name="aprt" id="aprt" class="required"/>
+							<label for="aprt">Appartment</label>
+							<input type="radio" value="house" name="house" id="house" />
+							<label for="house">House</label>
+						</fieldset>
+					</div>
+					<div data-role="fieldcontain">
+						<fieldset data-role="controlgroup">
+							<legend>dilivery day:</legend>
+							<input type="checkbox" value="Monday" name="weekday" id="Monday" class="required"/>
+							<label for="Monday">Monday</label>
+							<input type="checkbox" value="Tuesday" name="weekday" id="Tuesday" />
+							<label for="Tuesday">Tuesday</label>
+							<input type="checkbox" value="Wednesday" name="weekday" id="Wednesday" />
+							<label for="Wednesday">Wednesday</label>
+							<input type="checkbox" value="Thursday" name="weekday" id="Thursday" />
+							<label for="Thursday">Thursday</label>
+							<input type="checkbox" value="Friday" name="weekday" id="Friday" />
+							<label for="Friday">Friday</label>
+							<input type="checkbox" value="Saturday" name="weekday" id="Saturday" />
+							<label for="Saturday">Saturday</label>
+							<input type="checkbox" value="Sunday" name="weekday" id="Sunday" />
+							<label for="Sunday">Sunday</label>
+						</fieldset>
+					</div>
+					
+					<div data-role="fieldcontain">
+						<input type="submit" value="schedule" data-theme="a"/>
+					</div>
+					<div data-role="fieldcontain">
+						<input type="reset" value="Reset" />
+					</div>
+				<a href="#addressErrors" id="addErrLink" data-rel="dialog" data-transition="pop">open error</a>
+				</div>
+				
+				</form>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">Addresses</a></li>
+							<li><a href="#newsFeed">Company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			<div data-role="dialog" id="addressErrors" >
+				<div data-role="header" data-theme="a" data-position="fixed">
+					<h1>Missing Fields</h1>
+				</div>
+				<div data-role="content">
+					<ul>
+						<li>test.</li>
+						
+					</ul>
+					
+				</div>
+				
+				
+			</div>	
+					
+					
+			
+			<div data-role="page" id="fav" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>Saved Addresses</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				
+					<p>This is where your addresses are going to be saved</p>
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">Addresses</a></li>
+							<li><a href="#newsFeed">Company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			<div data-role="page" id="about" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>about page</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				
+					<h2>About Our Company</h2>
+					<p>Big-z is a company committed to our people. 
+						We are here to find new and exciting ways to capture our customer’s wants and needs when it comes to
+						applications. The designs are meant to mold usability and aesthetics into working cohesion. 
+
+						<h3>My name is Zachery Croasmun and I am here to create your enjoyment!</h3>
+ </p>
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">Addresses</a></li>
+							<li><a href="#newsFeed">Company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+			
+			<div data-role="page" id="newsFeed" data-theme="a" data-add-back-btn="true">
+				<div data-role="header" data-theme="a" data-position="fixed">
+				<h1>company news feed</h1>
+				
+				
+				</div>
+				<div data-role="content">
+				<ul data-role="listview" data-inset="true">
+					
+					<li>
+						<h2>Fixed form validation</h2>
+						<p>updated: 25 sep 2013</p>
+					</li>
+						
+					<li>
+						<h2>added requierd fields to the form.</h2>
+						<p>updated: 19 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>created a list inlay for the product page.</h2>
+						<p>updated: 15 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>added a listview option to the product page.</h2>
+						<p>updated: 12 sep 2013</p>
+					</li>
+					
+					<li>
+						<h2>added some great new products.</h2>
+						<p>updated: 10 sep 2013</p>
+					</li>
+					
+					
+				</ul>
+					
+				
+				</div>
+				<div data-role="footer" data-theme="b" data-position="fixed">
+					<div data-role="navbar">
+						<ul>
+							<li><a href="#home">home</a></li>
+							<li><a href="#fav">Addresses</a></li>
+							<li><a href="#newsFeed">Company News</a></li>
+							<li><a href="#about">about</a></li>
+						
+						</ul>
+					
+					</div>
+			
+			
+			
+			
+				</div>
+			</div>
+		
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src=""></script>
+
+	</body>
+</html>
